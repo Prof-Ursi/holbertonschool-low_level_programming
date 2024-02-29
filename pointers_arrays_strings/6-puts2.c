@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * puts2 - function that prints every other character
+ * puts2 - function that prints every even character
  * of a string, starting with the first character
  * @str : variable to pointer
  */
