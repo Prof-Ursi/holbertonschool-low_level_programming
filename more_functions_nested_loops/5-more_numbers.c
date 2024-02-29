@@ -2,12 +2,6 @@
 
 /**
  * more_numbers - prints 10 times the number, from 0 to 14
- * @i: number of iteration of printing from 0 to 14
- * @j: numbers from 0 to 14
- * @d1: contain the ten to print numbers through _putchar
- * by adding the ascii value of '0' (which is 48)
- * @d2: will contain the units to print numbers through _putchar
- * by adding the ascii value of '0'
  */
 
 void more_numbers(void)
