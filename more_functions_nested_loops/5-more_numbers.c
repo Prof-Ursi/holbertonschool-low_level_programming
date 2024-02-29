@@ -2,22 +2,34 @@
 
 /**
  * more_numbers - prints 10 times the number, from 0 to 14
- * @i: number of iteration from 0 to 9
+ * @i: number of iteration of printing from 0 to 14
  * @j: numbers from 0 to 14
+ * @d1: contain the ten to print numbers through _putchar
+ * by adding the ascii value of '0' (which is 48)
+ * @d2: will contain the units to print numbers through _putchar
+ * by adding the ascii value of '0'
  */
 
 void more_numbers(void)
 {
 	int i;
 	int j;
-	
+	int d1;
+	int d2;
+
+
 	for (i = 0; i < 10; i++)
 	{
-		for (j = '0'; j <= '14'; j++)
+		for (j = 0; j <= 14; j++)
 		{
-			_putchar(j);
+			d1 = j / 10;
+			d2 = j % 10;
+			if (j > 9)
+			{
+				_putchar(d1 + 48);
+			}
+			_putchar(d2 + 48);
 		}
 		_putchar('\n');
 	}
-	_putchar('\n');
 }
