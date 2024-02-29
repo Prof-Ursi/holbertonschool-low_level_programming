@@ -2,7 +2,6 @@
 
 /**
  * main - print fizzbuzz 1 to 100
- * 
  */
 
 int main(void)
