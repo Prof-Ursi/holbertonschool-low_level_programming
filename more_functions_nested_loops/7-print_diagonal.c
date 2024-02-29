@@ -3,8 +3,6 @@
 /**
  * print_diagonal - function that draws a diagonal line
  * @n: number of character '\' (92 in ASCII Table) in diagonal
- * @i: vertical position of the '\' character
- * @j: horizontal position of the '\' character
  */
 
 void print_diagonal(int n)
