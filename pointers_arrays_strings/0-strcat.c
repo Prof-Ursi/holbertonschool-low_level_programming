@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_strcat - funcion that concatenates two strings
+ * *_strcat - function that concatenates two strings
  * by appending src to dest, so src keeps the null byte '\0'
  * @dest : destination variable to pointer
  * @src : source variable to pointer
