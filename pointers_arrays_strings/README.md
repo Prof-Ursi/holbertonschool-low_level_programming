@@ -1,1 +1,1 @@
-Third project of week 4, focused on more pointers, arrays and strings.
+First project of week 5, centered around even more pointers, strings and arrays. 
