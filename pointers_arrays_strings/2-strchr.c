@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
   * _strchr - locate character in string
   * @s: source string
@@ -6,6 +8,7 @@
   * Return: the string after the character found
   * NULL (\0) if not found
   */
+
 char *_strchr(char *s, char c)
 {
 	int length_s = 0
