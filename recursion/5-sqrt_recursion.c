@@ -1,8 +1,6 @@
 #include "main.h"
 #include <stdio.h>
 
-int comparing_root(int number, int root);
-
 /**
  * _sqrt_recursion - return the natural square root of a number n.
  * @n: number to check for square roots.
