@@ -5,7 +5,7 @@
  * of a given number
  * @n: number to factorial
  *
- * Return: 
+ * Return:
  * - factorial of a given number
  * - -1 if the number is negative
  */
