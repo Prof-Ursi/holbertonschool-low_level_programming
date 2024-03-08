@@ -26,5 +26,5 @@ int comparing_root(int number, int root)
 
 int _sqrt_recursion(int n)
 {
-	return (comparing_root(n, 1));
+	return (comparing_root(n, 0));
 }
