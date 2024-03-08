@@ -30,6 +30,6 @@ int comparing_root(int number, int root)
 
 	if (root * root == number)
 		return (root);
-	
+
 	return (comparing_root(number, root + 1));
 }
