@@ -5,7 +5,7 @@
   * @haystack: the string to search
   * @needle: the string to find
   *
-  * Return: 
+  * Return:
   * - a pointer to the beginning
   * of the located substring
   * - NULL ('\0') if the substring is not found
@@ -21,7 +21,7 @@ char *_strstr(char *haystack, char *needle)
 		{
 			if (haystack[i + j] != needle[j])
 			{
-				break; 
+				break;
 			}
 
 			j++;
