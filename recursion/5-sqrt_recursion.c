@@ -1,4 +1,21 @@
 #include "main.h"
+#include <stdio.h>
+
+int comparing_root(int number, int root)
+
+/**
+ * _sqrt_recursion - return the natural square root of a number n.
+ * @n: number to check for square roots.
+ * Return: the natural square root of number n
+ */
+
+int _sqrt_recursion(int n)
+{
+	if (n < 0)
+		return (-1);
+	else
+		return (comparing_root(n, 0));
+}
 
 /**
  * comparing_root - checks the input number from n to the base
@@ -16,18 +33,4 @@ int comparing_root(int number, int root)
 	if (root * root > number)
 		return (-1);
 	return (comparing_root(number, root + 1));
-}
-
-/**
- * _sqrt_recursion - return the natural square root of a number n.
- * @n: number to check for square roots.
- * Return: the natural square root of number n
- */
-
-int _sqrt_recursion(int n)
-{
-	if (n < 0)
-		return (-1);
-	else
-		return (comparing_root(n, 0));
 }
