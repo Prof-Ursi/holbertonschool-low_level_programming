@@ -5,7 +5,7 @@
  * main - multiplies two numbers.
  * @argc: number of command line arguments.
  * @argv: array that contains the program command line arguments.
- * Return: 
+ * Return:
  * - 0 if everything worked out
  * - 1 if the program does not receive two arguments
  */
