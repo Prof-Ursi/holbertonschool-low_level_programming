@@ -11,10 +11,7 @@ int comparing_root(int number, int root);
 
 int _sqrt_recursion(int n)
 {
-	if (n < 0)
-		return (-1);
-	else
-		return (comparing_root(n, 0));
+	return (comparing_root(n, 1));
 }
 
 /**
@@ -28,9 +25,11 @@ int _sqrt_recursion(int n)
 
 int comparing_root(int number, int root)
 {
-	if (root * root == number)
-		return (number);
 	if (root * root > number)
 		return (-1);
+
+	if (root * root == number)
+		return (root);
+	
 	return (comparing_root(number, root + 1));
 }
