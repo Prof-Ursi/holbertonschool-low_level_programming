@@ -10,15 +10,15 @@
  * Return: pointer to concatenated string
  */
 
-char *str_concat(char *s1, char *s2);
+char *str_concat(char *s1, char *s2)
 {
 	char *string_final;
-	unsigned int i, j, s1_length = 0, s2_length = 0;
+	unsigned int i,j,k, s1_length = 0, s2_length = 0;
 
-	if (s1 != NULL)
+	if (s1 == NULL)
 		s1 = "";
 
-	if (s2 != NULL)
+	if (s2 == NULL)
 		s2 = "";
 
 	for (i = 0; s1[i] != '\0'; i++)
@@ -26,7 +26,7 @@ char *str_concat(char *s1, char *s2);
 		s1_length++;
 	}
 
-	for (i = 0; s2[i] != '\0'; i++)
+	for (j = 0; s2[j] != '\0'; j++)
 	{
 		s2_length++;
 	}
@@ -38,12 +38,12 @@ char *str_concat(char *s1, char *s2);
 	if (string_final == NULL)
 		return (NULL);
 
-	for (i = 0; i < (s1_length + s2_length); i++)
+	for (k = 0; k < (s1_length + s2_length); k++)
 	{
-		if (i < s1_length)
-			string_final[i] = s1[i];
-		else
-			string_final[i] = s2[i - s1_length]l;
+		if (k < s1_length)
+			string_final[k] = s1[k];
+		if (k >= s1_length)
+			string_final[k] = s2[k - s1_length];
 	}
 
 	return (string_final);
