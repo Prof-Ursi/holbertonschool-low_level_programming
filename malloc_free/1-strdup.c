@@ -11,7 +11,7 @@
  * Return: pointer to the duplicated string
  */
 
-char *_strdup(char *str);
+char *_strdup(char *str)
 {
 	char *string_copy;
 	unsigned int i;
@@ -40,7 +40,7 @@ char *_strdup(char *str);
 	{
 		for (i = 0; i < str_length; i++)
 		{
-			string_copy[i] = str[i]
+			string_copy[i] = str[i];
 		}
 	}
 
