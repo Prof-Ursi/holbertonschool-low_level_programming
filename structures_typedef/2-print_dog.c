@@ -4,9 +4,8 @@
 
 /**
  * print_dog - Prints all the data of a dog
- * @d: A dog structure
  *
- * Return: Nothing
+ * @d: A dog structure
  */
 
 void print_dog(struct dog *d)
