@@ -1,0 +1,1 @@
+Third project of week 6, centered around structures. 
