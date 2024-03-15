@@ -1,0 +1,1 @@
+Second project of week 6, focused on more malloc, calloc, realloc and free.
