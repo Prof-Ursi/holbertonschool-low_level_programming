@@ -1,0 +1,1 @@
+Second project of week 7, centered around variadic functions.
