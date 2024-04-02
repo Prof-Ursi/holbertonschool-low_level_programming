@@ -6,6 +6,24 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include "main.h"
+
+/**
+ * _strlen - function that returns the length of a string
+ * @s : variable to pointer
+ * Return: i is length
+ */
+int _strlen(char *s)
+{
+	int i = 0;
+
+	while (*s != '\0')
+	{
+		i++;
+		s++;
+	}
+	return (i);
+}
 
 /**
  * struct list_s - singly linked list
