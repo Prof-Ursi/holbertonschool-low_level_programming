@@ -4,7 +4,7 @@
  * add_dnodeint - function that adds a new node at the beginning
  * of a double linked list
  * @head: pointer to Head of the list
- * @n: number to add of node
+ * @n: number to add to the new node
  *
  * Return: adress of the new element or NULL if it failed
  */
