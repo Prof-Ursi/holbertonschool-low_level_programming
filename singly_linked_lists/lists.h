@@ -9,35 +9,6 @@
 #include <unistd.h>
 
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
- *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
- */
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
-}
-
-/**
- * _strlen - function that returns the length of a string
- * @s : variable to pointer
- * Return: i is length
- */
-int _strlen(char *s)
-{
-	int i = 0;
-
-	while (*s != '\0')
-	{
-		i++;
-		s++;
-	}
-	return (i);
-}
-
-/**
  * struct list_s - singly linked list
  * @str: string - (malloc'ed string)
  * @len: length of the string // with or without /0 ?
@@ -52,8 +23,6 @@ typedef struct list_s
 	struct list_s *next;
 } list_t;
 
-int _putchar(char c);
-int _strlen(char *s);
 size_t print_list(const list_t *h);
 size_t list_len(const list_t *h);
 list_t *add_node(list_t **head, const char *str);
