@@ -2,13 +2,12 @@
 
 /**
  * binary_to_uint - function that converts a string of
- * binary number into an unsigned int
+ * binary number into an unsigned int containing only 0 and 1
  *
  * @b: pointer to a string of binary numbers
  *
  * Return: converted integer number, or 0 if there is one or more chars
- * in the string b that is not 0 nor 1
- * b is NULL
+ * in the string b that is not 0 nor 1, or if b is NULL
  */
 
 unsigned int binary_to_uint(const char *b)
