@@ -17,11 +17,12 @@ int get_bit(unsigned long int n, unsigned int index)
 		return (-1);
 	}
 	return ((n >> index) & 1);
-	/*BIT WITCHCRAFT :
-	First we right shift the number with index value,
-	setting the rightmost bit of the number as the one we want to retrieve,
-	then we compare this rightmost bit to 1 with bitwise AND
-	to set every bit on the left as 0, thus returning only
-	1 if the index value is 1 and 0 otherwise.*/
-
+	/*
+	* BIT WITCHCRAFT :
+	* First we right shift the number with index value,
+	* setting the rightmost bit of the number as the one we want to retrieve,
+	* then we compare this rightmost bit to 1 with bitwise AND
+	* to set every bit on the left as 0, thus returning only
+	* 1 if the index value is 1 and 0 otherwise.
+	*/
 }
